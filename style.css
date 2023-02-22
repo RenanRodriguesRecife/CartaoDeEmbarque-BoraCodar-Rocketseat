@@ -126,9 +126,43 @@ section{
     mask-repeat: repeat-x;
 }
 
+.bottom .container{
+    align-items: center;
+    gap: 0.8rem;
+}
+
+dl.grid{
+    gap: 1.6rem;
+    min-width: 9.5rem;
+}
+
+dl time{
+    color: white;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    background: #633bbc;
+    border-radius: 0.8rem;
+    padding: 0.4rem 0.8rem;
+    display: inline-block;
+    margin-top: 0.2rem;
+}
+
+.bottom > p{
+    text-align: center;
+    margin-top: 2.4rem;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    color: rgba(0,0,0,0.8);
+}
+
+.qrcode.grid{
+    justify-content: center;
+}
+
 footer{
-    font-size: 14px;
-    line-height: 24px;
+    font-size: 1.4rem;
+    line-height: 2.4rem;
     color: white;
     opacity: 0.64;
     width: 27rem;
